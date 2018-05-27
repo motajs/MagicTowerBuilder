@@ -12,6 +12,13 @@
 		19FC73DA20B9493E007F6D10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19FC73D920B9493E007F6D10 /* Assets.xcassets */; };
 		19FC73DD20B9493E007F6D10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19FC73DB20B9493E007F6D10 /* Main.storyboard */; };
 		19FC73E020B9493E007F6D10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19FC73DF20B9493E007F6D10 /* main.m */; };
+		19FC73E920B94F31007F6D10 /* MTBWebServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 19FC73E820B94F31007F6D10 /* MTBWebServer.m */; };
+		19FC73EC20B9A60F007F6D10 /* MTBWebServerFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 19FC73EB20B9A60F007F6D10 /* MTBWebServerFormDataRequest.m */; };
+		19FC73F220B9B003007F6D10 /* MTBPSLaunchOptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19FC73F120B9B003007F6D10 /* MTBPSLaunchOptionsViewController.m */; };
+		19FC73F620B9B07D007F6D10 /* MTBPSToolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19FC73F420B9B07D007F6D10 /* MTBPSToolViewController.m */; };
+		19FC73FD20B9B68B007F6D10 /* NSImageView+BackgroundColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 19FC73FC20B9B68B007F6D10 /* NSImageView+BackgroundColor.m */; };
+		19FC740620B9B89C007F6D10 /* MTBFolderInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 19FC740520B9B89C007F6D10 /* MTBFolderInfo.m */; };
+		697DABB1FCC6B56AED90A0A7 /* libPods-MTBuilder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF67047A43446DA5D7019C05 /* libPods-MTBuilder.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +32,21 @@
 		19FC73DE20B9493E007F6D10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		19FC73DF20B9493E007F6D10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		19FC73E120B9493E007F6D10 /* MTBuilder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MTBuilder.entitlements; sourceTree = "<group>"; };
+		19FC73E720B94F31007F6D10 /* MTBWebServer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTBWebServer.h; sourceTree = "<group>"; };
+		19FC73E820B94F31007F6D10 /* MTBWebServer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTBWebServer.m; sourceTree = "<group>"; };
+		19FC73EA20B9A60F007F6D10 /* MTBWebServerFormDataRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTBWebServerFormDataRequest.h; sourceTree = "<group>"; };
+		19FC73EB20B9A60F007F6D10 /* MTBWebServerFormDataRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTBWebServerFormDataRequest.m; sourceTree = "<group>"; };
+		19FC73F020B9B003007F6D10 /* MTBPSLaunchOptionsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTBPSLaunchOptionsViewController.h; sourceTree = "<group>"; };
+		19FC73F120B9B003007F6D10 /* MTBPSLaunchOptionsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTBPSLaunchOptionsViewController.m; sourceTree = "<group>"; };
+		19FC73F320B9B07D007F6D10 /* MTBPSToolViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTBPSToolViewController.h; sourceTree = "<group>"; };
+		19FC73F420B9B07D007F6D10 /* MTBPSToolViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTBPSToolViewController.m; sourceTree = "<group>"; };
+		19FC73FB20B9B68B007F6D10 /* NSImageView+BackgroundColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSImageView+BackgroundColor.h"; sourceTree = "<group>"; };
+		19FC73FC20B9B68B007F6D10 /* NSImageView+BackgroundColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSImageView+BackgroundColor.m"; sourceTree = "<group>"; };
+		19FC740420B9B89C007F6D10 /* MTBFolderInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTBFolderInfo.h; sourceTree = "<group>"; };
+		19FC740520B9B89C007F6D10 /* MTBFolderInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTBFolderInfo.m; sourceTree = "<group>"; };
+		8A08EF484385ED4E8538C56B /* Pods-MTBuilder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTBuilder.release.xcconfig"; path = "Pods/Target Support Files/Pods-MTBuilder/Pods-MTBuilder.release.xcconfig"; sourceTree = "<group>"; };
+		CF67047A43446DA5D7019C05 /* libPods-MTBuilder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MTBuilder.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7403219163DA28B24CAF240 /* Pods-MTBuilder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTBuilder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MTBuilder/Pods-MTBuilder.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				697DABB1FCC6B56AED90A0A7 /* libPods-MTBuilder.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +66,8 @@
 			children = (
 				19FC73D220B9493D007F6D10 /* MTBuilder */,
 				19FC73D120B9493D007F6D10 /* Products */,
+				46D518A65129C3EB88D58AE8 /* Pods */,
+				D98430338ABA4ED41BC5715E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,10 +82,12 @@
 		19FC73D220B9493D007F6D10 /* MTBuilder */ = {
 			isa = PBXGroup;
 			children = (
+				19FC740320B9B888007F6D10 /* Utils */,
+				19FC73EF20B9AFE3007F6D10 /* PSTool */,
+				19FC73EE20B9AFDB007F6D10 /* WebServer */,
+				19FC73ED20B9AFC7007F6D10 /* MainMenu */,
 				19FC73D320B9493D007F6D10 /* AppDelegate.h */,
 				19FC73D420B9493D007F6D10 /* AppDelegate.m */,
-				19FC73D620B9493D007F6D10 /* ViewController.h */,
-				19FC73D720B9493D007F6D10 /* ViewController.m */,
 				19FC73D920B9493E007F6D10 /* Assets.xcassets */,
 				19FC73DB20B9493E007F6D10 /* Main.storyboard */,
 				19FC73DE20B9493E007F6D10 /* Info.plist */,
@@ -70,6 +97,65 @@
 			path = MTBuilder;
 			sourceTree = "<group>";
 		};
+		19FC73ED20B9AFC7007F6D10 /* MainMenu */ = {
+			isa = PBXGroup;
+			children = (
+				19FC73D620B9493D007F6D10 /* ViewController.h */,
+				19FC73D720B9493D007F6D10 /* ViewController.m */,
+			);
+			path = MainMenu;
+			sourceTree = "<group>";
+		};
+		19FC73EE20B9AFDB007F6D10 /* WebServer */ = {
+			isa = PBXGroup;
+			children = (
+				19FC73E720B94F31007F6D10 /* MTBWebServer.h */,
+				19FC73E820B94F31007F6D10 /* MTBWebServer.m */,
+				19FC73EA20B9A60F007F6D10 /* MTBWebServerFormDataRequest.h */,
+				19FC73EB20B9A60F007F6D10 /* MTBWebServerFormDataRequest.m */,
+			);
+			path = WebServer;
+			sourceTree = "<group>";
+		};
+		19FC73EF20B9AFE3007F6D10 /* PSTool */ = {
+			isa = PBXGroup;
+			children = (
+				19FC73F020B9B003007F6D10 /* MTBPSLaunchOptionsViewController.h */,
+				19FC73F120B9B003007F6D10 /* MTBPSLaunchOptionsViewController.m */,
+				19FC73F320B9B07D007F6D10 /* MTBPSToolViewController.h */,
+				19FC73F420B9B07D007F6D10 /* MTBPSToolViewController.m */,
+				19FC73FB20B9B68B007F6D10 /* NSImageView+BackgroundColor.h */,
+				19FC73FC20B9B68B007F6D10 /* NSImageView+BackgroundColor.m */,
+			);
+			path = PSTool;
+			sourceTree = "<group>";
+		};
+		19FC740320B9B888007F6D10 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				19FC740420B9B89C007F6D10 /* MTBFolderInfo.h */,
+				19FC740520B9B89C007F6D10 /* MTBFolderInfo.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		46D518A65129C3EB88D58AE8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E7403219163DA28B24CAF240 /* Pods-MTBuilder.debug.xcconfig */,
+				8A08EF484385ED4E8538C56B /* Pods-MTBuilder.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D98430338ABA4ED41BC5715E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF67047A43446DA5D7019C05 /* libPods-MTBuilder.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,9 +163,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 19FC73E420B9493E007F6D10 /* Build configuration list for PBXNativeTarget "MTBuilder" */;
 			buildPhases = (
+				82456223BC0E6219BF986D82 /* [CP] Check Pods Manifest.lock */,
 				19FC73CC20B9493D007F6D10 /* Sources */,
 				19FC73CD20B9493D007F6D10 /* Frameworks */,
 				19FC73CE20B9493D007F6D10 /* Resources */,
+				6E268B03A38E8B3F393AB8DD /* [CP] Embed Pods Frameworks */,
+				430B4F164EFC323246BA4E4F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -134,14 +223,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		430B4F164EFC323246BA4E4F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MTBuilder/Pods-MTBuilder-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E268B03A38E8B3F393AB8DD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MTBuilder/Pods-MTBuilder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82456223BC0E6219BF986D82 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MTBuilder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		19FC73CC20B9493D007F6D10 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				19FC73D820B9493D007F6D10 /* ViewController.m in Sources */,
+				19FC73FD20B9B68B007F6D10 /* NSImageView+BackgroundColor.m in Sources */,
+				19FC73EC20B9A60F007F6D10 /* MTBWebServerFormDataRequest.m in Sources */,
+				19FC73E920B94F31007F6D10 /* MTBWebServer.m in Sources */,
+				19FC73F220B9B003007F6D10 /* MTBPSLaunchOptionsViewController.m in Sources */,
+				19FC740620B9B89C007F6D10 /* MTBFolderInfo.m in Sources */,
 				19FC73E020B9493E007F6D10 /* main.m in Sources */,
 				19FC73D520B9493D007F6D10 /* AppDelegate.m in Sources */,
+				19FC73F620B9B07D007F6D10 /* MTBPSToolViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +416,9 @@
 		};
 		19FC73E520B9493E007F6D10 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7403219163DA28B24CAF240 /* Pods-MTBuilder.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = MTBuilder/MTBuilder.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 674549EE7Z;
@@ -281,6 +427,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.xiongdianpku.MTBuilder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -288,9 +435,9 @@
 		};
 		19FC73E620B9493E007F6D10 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A08EF484385ED4E8538C56B /* Pods-MTBuilder.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = MTBuilder/MTBuilder.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 674549EE7Z;
@@ -299,6 +446,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.xiongdianpku.MTBuilder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
