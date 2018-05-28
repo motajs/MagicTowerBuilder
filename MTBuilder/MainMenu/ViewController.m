@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "MTBWebServer.h"
+#import "MTBFolderInfo.h"
 
 @interface ViewController()
 @property (weak) IBOutlet NSTextField *tipLabel;
@@ -19,7 +20,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     if ([[MTBWebServer sharedServer] start]) {
-        self.tipLabel.stringValue = [NSString stringWithFormat:@"已启动服务：http://localhost:%ld/", [MTBWebServer sharedServer].port];
+        self.tipLabel.stringValue = [NSString stringWithFormat:@"已启动服务：http://localhost:%ld/\n目录：%@", [MTBWebServer sharedServer].port, [MTBFolderInfo currentWorkingDirectory].path];
     } else {
         self.tipLabel.stringValue = @"启动服务失败，请稍后再试";
     }

@@ -208,6 +208,17 @@
     
     if (width % unitWidth != 0 || height % unitHeight != 0) {
         if (width <= unitWidth * 4 && height <= unitHeight * 4) {
+            NSImage *newImage = [[NSImage alloc] initWithSize:NSMakeSize(unitWidth * 4, unitHeight * 4)];
+            [newImage lockFocus];
+            float x_gap = (unitWidth - width / 4) / 2;
+            float y_gap = (unitHeight - height / 4) / 2;
+            for (NSInteger i = 0; i < 4; i++) {
+                for (NSInteger j = 0; j < 4; j++) {
+                    [resultImageObj drawAtPoint:NSMakePoint(j * unitWidth + x_gap, i * unitHeight + y_gap) fromRect:NSMakeRect(j * width / 4, i * height / 4, width / 4, height / 4) operation:NSCompositingOperationSourceOver fraction:1.0];
+                }
+            }
+            [newImage unlockFocus];
+            resultImageObj = newImage;
             width = unitWidth * 4;
             height = unitHeight * 4;
         } else {
@@ -454,13 +465,10 @@
                 g = iMin;
                 blue = iMid;
                 break;
-            case 6:
+            default:
                 r = iMax;
                 g = iMid;
                 blue = iMin;
-                break;
-                
-            default:
                 break;
         }
         
